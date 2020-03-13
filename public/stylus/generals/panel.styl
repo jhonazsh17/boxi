@@ -1,0 +1,46 @@
+/*
+* Archivo Stylus Generado - Feb. 2020
+* -----------------------------------
+* Autor: @jhonazsh (Jhon F. Medina Zapata)
+* Colaboradores (Lista de Mantenedores y Modificadores de este archivo:
+* - ...
+* - ...
+*/
+
+//Variables color
+color-ccc = #ccc
+
+//Variables tamaños relativos
+tam-1em = 1em
+
+//------------ Panel BOXI -----------// 
+
+.panel-boxi
+    background-color: white
+    border: 1px solid color-ccc
+    box-shadow: 0px 0px 10px 1px color-ccc
+    margin-top: tam-1em
+    &_head, &_body, &_footer
+    	padding tam-1em
+    &_head
+    	border-bottom 1px solid color-ccc	
+    &_footer
+    	border-top 1px solid color-ccc
+
+//------------ Panel BOXI 2 ------------//
+.panel-boxi-2
+    border: 1px solid color-ccc
+    border-radius 3px
+    &_body
+        padding: 1em
+    &_head
+        border-bottom 1px solid color-ccc
+        padding: 1em
+    &_footer
+        padding: 1em
+        border-top 1px solid color-ccc
+
+.panel-b-fixed
+    position fixed
+    width 17.1%
+    top 4px
